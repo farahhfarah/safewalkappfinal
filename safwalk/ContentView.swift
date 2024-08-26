@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  safwalk
 //
-//  Created by F Farah on 21/08/2024.
+
 //
 
 import SwiftUI

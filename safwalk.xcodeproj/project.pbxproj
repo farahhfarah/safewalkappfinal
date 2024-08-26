@@ -19,7 +19,6 @@
 		2368ED8D2C7621460026607C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED8C2C7621460026607C /* NetworkManager.swift */; };
 		2368ED8F2C7664A30026607C /* IncidentformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED8E2C7664A30026607C /* IncidentformView.swift */; };
 		2368ED912C7666DC0026607C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED902C7666DC0026607C /* MapView.swift */; };
-		2368ED932C766A440026607C /* MapincidentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368ED922C766A440026607C /* MapincidentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		2368ED8C2C7621460026607C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2368ED8E2C7664A30026607C /* IncidentformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentformView.swift; sourceTree = "<group>"; };
 		2368ED902C7666DC0026607C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		2368ED922C766A440026607C /* MapincidentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapincidentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 				2368ED602C761D740026607C /* ContentView.swift */,
 				2368ED8C2C7621460026607C /* NetworkManager.swift */,
 				2368ED882C761DC30026607C /* LoginView.swift */,
-				2368ED922C766A440026607C /* MapincidentView.swift */,
 				2368ED902C7666DC0026607C /* MapView.swift */,
 				2368ED8E2C7664A30026607C /* IncidentformView.swift */,
 				2368ED8A2C761DD70026607C /* SignupView.swift */,
@@ -282,7 +279,6 @@
 				2368ED8D2C7621460026607C /* NetworkManager.swift in Sources */,
 				2368ED612C761D740026607C /* ContentView.swift in Sources */,
 				2368ED5F2C761D740026607C /* safwalkApp.swift in Sources */,
-				2368ED932C766A440026607C /* MapincidentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  LoginView.swift
 //  safwalk
 //
-//  Created by F Farah on 21/08/2024.
+//  
 //
 
 import SwiftUI
@@ -16,8 +16,7 @@ struct LoginView: View {
     var body: some View {
         NavigationView {
             VStack {
-                // Add the image at the top center
-                Image("logo") // Replace with your image name (make sure it's added to Assets.xcassets)
+                Image("logo")
                     .resizable()
                     .scaledToFit()
                     .frame(height: 200) // Adjust height as needed
@@ -50,10 +49,7 @@ struct LoginView: View {
                     Text("Login Successful!")
                         .foregroundColor(.green)
                         .onAppear {
-                            // Navigate to MapView after login is successful
                             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                                // Navigate to MapView
-                                // Replace with your actual navigation logic
                                 if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
                                     let window = windowScene.windows.first
                                     window?.rootViewController = UIHostingController(rootView: MapView(userId: email)) // Assuming userId is the email
@@ -70,7 +66,6 @@ struct LoginView: View {
         }
     }
 }
-
 // Preview
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
