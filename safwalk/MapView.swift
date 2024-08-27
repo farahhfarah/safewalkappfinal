@@ -32,16 +32,16 @@ struct MapView: View {
     
     
     let markers: [Marker] = [
-        Marker(name: "Marker 1", latitude: 51.459458, longitude: -0.241048),
-        Marker(name: "Marker 2", latitude: 51.457122, longitude: -0.242890),
-        Marker(name: "Marker 3", latitude: 51.456122, longitude: -0.240890),
-        Marker(name: "Marker 4", latitude: 51.458122, longitude: -0.239890),
-        Marker(name: "Marker 5", latitude: 51.455122, longitude: -0.242890),
-        Marker(name: "Marker 6", latitude: 51.459122, longitude: -0.244890),
-        Marker(name: "Marker 7", latitude: 51.460122, longitude: -0.241890),
-        Marker(name: "Marker 8", latitude: 51.461122, longitude: -0.240890),
-        Marker(name: "Marker 9", latitude: 51.458122, longitude: -0.243890),
-        Marker(name: "Marker 10", latitude: 51.457622, longitude: -0.245890),
+        Marker(name: "Marker 1", latitude: 51.457193, longitude: -0.242876),
+        Marker(name: "Marker 2", latitude: 51.458883, longitude: -0.243057),
+        Marker(name: "Marker 3", latitude: 51.455743, longitude: -0.243016),
+        Marker(name: "Marker 4", latitude: 51.458013, longitude: -0.243433),
+        Marker(name: "Marker 5", latitude: 51.453389, longitude: -0.243761),
+        Marker(name: "Marker 6", latitude: 51.457057, longitude: -0.242043),
+        Marker(name: "Marker 7", latitude: 51.455967, longitude: -0.242515),
+        Marker(name: "Marker 8", latitude: 51.458692, longitude: -0.242448),
+        Marker(name: "Marker 9", latitude: 51.459997, longitude: -0.242787),
+        Marker(name: "Marker 10", latitude: 51.460719, longitude: -0.243554),
     ]
 
     @State private var fetchedMarkers: [Marker] = []
